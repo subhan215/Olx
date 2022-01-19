@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+     margin-top: 20px;
+     justify-content: center;
+     padding-bottom: 10px;
+
+}
+.headerimage{
+    margin-right: 20px;
+}
+
+.headerdd{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+    width: 272px;
+}
+.headerdd select,.headerdd option{
+    border: none;
+    
+}
+.headerdd select{
+    margin-left: 12px;
+    outline: none;
+
+}
+.sebtn{
+    margin-left: 12px;
+}
+.headerse{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.sebtn input{
+    width: 450px;
+    border: none;
+    outline: none;
+   
+}
+.seicon{
+    background-color: #002F34;
+    color: #FFFFFF;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    justify-content: center;
+}
+.lodiv{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.lodiv button{
+    background-color: transparent;
+    border: none;
+    color: #002f34;
+    
+    border-bottom: 2px solid #002F34;
+    font-weight: bold;
+}
+.lodiv button:hover{
+    border-bottom: none;
+}
+.selldiv{
+    background-image: url("Images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg");
+    background-repeat: no-repeat;
+    width: 110px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selldiv p{
+    margin: 0;
+    font-size: 14px;
+    color: #002F34;
+    font-weight: bold;
+}
+
+/* header part 2 */
+
+.headerdiv2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+} 
+.div2p1{
+    display: flex;
+}
+.headerdiv2 a:hover{
+   color: grey!important;
+   cursor: pointer;
+}
+@media only screen and (max-width:1060px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        
+   }
+   .headerse{
+    width: 350px;
+    margin-top: 10px;
+   }
+.sebtn input{
+    width: 300px;
+}
+.selldiv{
+    height: 50px;
+    margin-top: 10px;
+}
+.lodiv{
+    margin-top: 10px;
+}
+    .headerdiv2{
+         display: block;
+         text-align: center !important;
+    }
+    .div2p1{
+        display: flex;
+        justify-content: center;
+    }
+   .headerdd{
+       padding-top: 10px;
+       padding-bottom: 10px;
+   }
+}
